@@ -1,0 +1,4 @@
+How to run the code:
+First, run make in the submission directory.
+Then, run the executable file named testKalah.
+testKalah has two command-line arguments: numHouses and numSeeds, in order.

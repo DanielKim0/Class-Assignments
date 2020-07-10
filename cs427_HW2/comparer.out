@@ -1,0 +1,202 @@
+Test 1
+Inputs:
+sample1.txt
+sample2.txt
+Outputs:
+Unsorted data:
+DataPack 1
+234
+3
+-1
+234
+3
+-1
+-5
+0.12
+234
+3456
+432
+6.5
+534
+78
+34
+0
+123
+
+DataPack 2
+234
+3
+-1
+6.5
+534
+78
+34
+0
+123
+23
+52
+16
+
+Beginning to sort.
+Sorted results:
+
+DataPack 1
+-5
+-1
+-1
+0
+0.12
+3
+3
+6.5
+34
+78
+123
+234
+234
+234
+432
+534
+3456
+
+DataPack 2
+-1
+0
+3
+6.5
+16
+23
+34
+52
+78
+123
+234
+534
+Call merge function
+Beginning to merge.
+Store allocated.
+
+Merged results:
+-1
+0
+3
+6.5
+34
+78
+123
+234
+Store deallocated.
+Store deallocated.
+Store deallocated.
+
+Test 2
+Inputs:
+sample1.txt
+sample3.txt
+Outputs:
+DataPack too small to contain entire file
+
+Test 3
+Inputs:
+sample1.txt
+sample1.txt
+Outputs:
+Unsorted data:
+DataPack 1
+234
+3
+-1
+234
+3
+-1
+-5
+0.12
+234
+3456
+432
+6.5
+534
+78
+34
+0
+123
+
+DataPack 2
+234
+3
+-1
+234
+3
+-1
+-5
+0.12
+234
+3456
+432
+6.5
+534
+78
+34
+0
+123
+
+Beginning to sort.
+Sorted results:
+
+DataPack 1
+-5
+-1
+-1
+0
+0.12
+3
+3
+6.5
+34
+78
+123
+234
+234
+234
+432
+534
+3456
+
+DataPack 2
+-5
+-1
+-1
+0
+0.12
+3
+3
+6.5
+34
+78
+123
+234
+234
+234
+432
+534
+3456
+Call merge function
+Beginning to merge.
+Store allocated.
+
+Merged results:
+-5
+-1
+0
+0.12
+3
+6.5
+34
+78
+123
+234
+432
+534
+Store deallocated.
+Store deallocated.
+Store deallocated.

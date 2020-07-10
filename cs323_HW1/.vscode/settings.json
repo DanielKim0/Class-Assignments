@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "algorithm": "c",
+        "string": "c",
+        "macros.h": "c",
+        "proj1.h": "c"
+    }
+}

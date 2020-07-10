@@ -1,0 +1,11 @@
+Files:
+files.txt: This file, containing info on what each file in this program does.
+notes.txt: File containing notes on how to run the program.
+board.hpp, board.o: Files containing the Board class that I wrote for this homework.
+pit.hpp, pit.o: Files containing the Pit class that I wrote for this homework.
+player.hpp: Files containing the Player enum that I wrote for this homework.
+main.cpp: File containing the main function of the entire program.
+tools.cpp, tools.hpp, tools.o: Files containing pre-written tools.
+Makefile: File that makes the executable for this program.
+testKalah: Executable program to run.
+testKalah.out: Inputs and outputs of some tests that I ran.

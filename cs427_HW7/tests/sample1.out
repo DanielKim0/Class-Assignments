@@ -1,0 +1,114 @@
+
+---------------------------------------------------------------
+	Daniel Kim
+	CPSC 427/527
+	Sun Dec  8 2019	22:42:56
+---------------------------------------------------------------
+Welcome to Kalah!
+
+--------------------------------------------------------------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 0] S0
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South or a command letter z y s q: 
+South playing move 4
+South gets another turn
+
+--------------------------------------------------------------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 1] S0
+          [ 4]  [ 4]  [ 0]  [ 5]  [ 5]  [ 5]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South or a command letter z y s q: 
+South playing move 5
+Turn is over
+
+--------------------------------------------------------------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 1] S0
+          [ 4]  [ 0]  [ 1]  [ 6]  [ 6]  [ 6]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for North or a command letter z y s q: 
+Command z pressed!
+Undoing...
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 1] S0
+          [ 4]  [ 4]  [ 0]  [ 5]  [ 5]  [ 5]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South or a command letter z y s q: 
+Command z pressed!
+Undoing...
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 0] S0
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South or a command letter z y s q: 
+Command y pressed!
+Redoing...
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 1] S0
+          [ 4]  [ 4]  [ 0]  [ 5]  [ 5]  [ 5]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South or a command letter z y s q: 
+South playing move 6
+Turn is over
+
+--------------------------------------------------------------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 1] S0
+          [ 0]  [ 5]  [ 1]  [ 6]  [ 6]  [ 5]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for North or a command letter z y s q: 
+Command y pressed!
+Redoing...
+Unable to redo!
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 1] S0
+          [ 0]  [ 5]  [ 1]  [ 6]  [ 6]  [ 5]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for North or a command letter z y s q: 
+Illegal Move Error: Invalid pit number.
+
+Please enter a pit number for North or a command letter z y s q: 
+North playing move 6
+Turn is over
+
+--------------------------------------------------------------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 5]  [ 5]  [ 5]  [ 5]  [ 0]
+  N0 [ 0]                                    [ 1] S0
+          [ 0]  [ 5]  [ 1]  [ 6]  [ 6]  [ 5]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South or a command letter z y s q: 
+Illegal Move Error: Pit is empty.
+
+Please enter a pit number for South or a command letter z y s q: 
+Command s pressed!
+
+Please enter a pit number for South or a command letter z y s q: 
+Command q pressed!
+Quitting game at user's request
+Game over -- goodbye!

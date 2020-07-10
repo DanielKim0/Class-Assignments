@@ -1,0 +1,17 @@
+#Exception:
+The approach that I took with the Exception was to have multiple different exception classes, each with their own groupings and functionality, as recommended in class. I also placed ArgError inside this file as well, because it wouldn't make sense to keep that in the main file.
+
+#Game
+I decided to delegate the restoreState() and saveState() functions to the Game class, as it was the lowest-leveled class that still had all of the information that was needed to actually restore and save the state. I added gatherSeeds() and setSeeds() functions that simply passed the inputted vector of integers to the Board class. I also had to make a new constructor for Game(), because of the possibility that the Game might be initiated, with the seeds being set later instead of automatically.
+
+#Board
+For the Board class, all that I had to do was the required functionality of the setSeeds() and gatherSeeds() functions that were passed from Game.
+
+#Referee
+The Referee class saw a lot of changes; originally, I placed the testing of human-inputted commands in the HumanAgent class. However, because the Problem Set stipulated that the Referee class had to handle Exceptions just in case something went wrong, I made the decision to move much of that logic to the Referee class and let it catch and handle errors, as well as reading human commands and waiting until the human gives a correct input. The Referee class also has the dosave() function, as stipulated in 4.1, as well as the undo and redo operations; undo_op() and redo_op() respectively. The undo and redo operations have to be in Referee for the same reason that the saving mechanism is in Referee; it's the one that receives these calls in the first place and deals with metagame rules, knowledge, and commands. For this class, I also had to add in a new constructor, to handle what happens when a file is loaded.
+
+#Snapshot
+For the Snapshot class, I added functionality to print out and read Snapshots (print() and read() respectively), as it wouldn't make much sense for any of the otehr classes to have that functionality.
+
+#Startup
+The Startup class has all of the previous functionality of what was in the main file, in addition to the new functionality required by the "-f" flag. Startup also reads in and even processes files; because the only time that a file must be read and processed is at the beginning of the program's execution, as the program does not allow for the functionality to load in files during a Kalah game's execution. This is reflected in the readFile() function, which reads processes files. The Startup go() function is separated into two parts; newGame(), which contains the previous main file's functionality, and restoreGame(), which handles if the program is given the "-f" flag.

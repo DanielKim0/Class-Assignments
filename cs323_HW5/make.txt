@@ -1,0 +1,76 @@
+gcc -c -o abash_process.o abash_process.c -std=c11 -Wall -pedantic -I.
+In file included from abash_process.c:1:
+abash_process.c: In function ‘p_simple’:
+abash_process.h:24:50: warning: passing argument 2 of ‘setenv’ makes pointer from integer without a cast [-Wint-conversion]
+   24 | #define STATUS(x) (WIFEXITED(x) ? WEXITSTATUS(x) : 128+WTERMSIG(x))
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  int
+abash_process.c:124:21: note: in expansion of macro ‘STATUS’
+  124 |         setenv("?", STATUS(status), 1);
+      |                     ^~~~~~
+In file included from abash_process.h:8,
+                 from abash_process.c:1:
+/usr/include/stdlib.h:650:52: note: expected ‘const char *’ but argument is of type ‘int’
+  650 | extern int setenv (const char *__name, const char *__value, int __replace)
+      |                                        ~~~~~~~~~~~~^~~~~~~
+In file included from abash_process.c:1:
+abash_process.c: In function ‘p_pipe’:
+abash_process.h:24:50: warning: passing argument 2 of ‘setenv’ makes pointer from integer without a cast [-Wint-conversion]
+   24 | #define STATUS(x) (WIFEXITED(x) ? WEXITSTATUS(x) : 128+WTERMSIG(x))
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  int
+abash_process.c:159:29: note: in expansion of macro ‘STATUS’
+  159 |                 setenv("?", STATUS(status2), 1);
+      |                             ^~~~~~
+In file included from abash_process.h:8,
+                 from abash_process.c:1:
+/usr/include/stdlib.h:650:52: note: expected ‘const char *’ but argument is of type ‘int’
+  650 | extern int setenv (const char *__name, const char *__value, int __replace)
+      |                                        ~~~~~~~~~~~~^~~~~~~
+In file included from abash_process.c:1:
+abash_process.h:24:50: warning: passing argument 2 of ‘setenv’ makes pointer from integer without a cast [-Wint-conversion]
+   24 | #define STATUS(x) (WIFEXITED(x) ? WEXITSTATUS(x) : 128+WTERMSIG(x))
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  int
+abash_process.c:162:29: note: in expansion of macro ‘STATUS’
+  162 |                 setenv("?", STATUS(status), 1);
+      |                             ^~~~~~
+In file included from abash_process.h:8,
+                 from abash_process.c:1:
+/usr/include/stdlib.h:650:52: note: expected ‘const char *’ but argument is of type ‘int’
+  650 | extern int setenv (const char *__name, const char *__value, int __replace)
+      |                                        ~~~~~~~~~~~~^~~~~~~
+In file included from abash_process.c:1:
+abash_process.c: In function ‘p_subcmd’:
+abash_process.h:24:50: warning: passing argument 2 of ‘setenv’ makes pointer from integer without a cast [-Wint-conversion]
+   24 | #define STATUS(x) (WIFEXITED(x) ? WEXITSTATUS(x) : 128+WTERMSIG(x))
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  int
+abash_process.c:246:21: note: in expansion of macro ‘STATUS’
+  246 |         setenv("?", STATUS(status), 1);
+      |                     ^~~~~~
+In file included from abash_process.h:8,
+                 from abash_process.c:1:
+/usr/include/stdlib.h:650:52: note: expected ‘const char *’ but argument is of type ‘int’
+  650 | extern int setenv (const char *__name, const char *__value, int __replace)
+      |                                        ~~~~~~~~~~~~^~~~~~~
+abash_process.c: In function ‘builtin_cd’:
+abash_process.c:259:17: warning: passing argument 2 of ‘setenv’ makes pointer from integer without a cast [-Wint-conversion]
+  259 |     setenv("?", errno, 1);
+      |                 ^~~~~
+      |                 |
+      |                 int
+In file included from abash_process.h:8,
+                 from abash_process.c:1:
+/usr/include/stdlib.h:650:52: note: expected ‘const char *’ but argument is of type ‘int’
+  650 | extern int setenv (const char *__name, const char *__value, int __replace)
+      |                                        ~~~~~~~~~~~~^~~~~~~
+gcc -o abash abash_process.o abash_main.o abash_parse.o -std=c11 -Wall -pedantic -I.
+/usr/bin/ld: abash_parse.o: in function `command':
+/home/accts/sce/5/abashHLP.c:221: multiple definition of `command'; abash_process.o:abash_process.c:(.text+0x83): first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:9: abash] Error 1

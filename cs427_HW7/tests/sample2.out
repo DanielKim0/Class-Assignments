@@ -1,0 +1,50 @@
+
+---------------------------------------------------------------
+	Daniel Kim
+	CPSC 427/527
+	Sun Dec  8 2019	22:46:32
+---------------------------------------------------------------
+Welcome to Kalah!
+
+--------------------------------------------------------------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 0] S0
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South or a command letter z y s q: 
+Command z pressed!
+Undoing...
+Unable to undo!
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 0] S0
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South or a command letter z y s q: 
+Command y pressed!
+Redoing...
+Unable to redo!
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 0] S0
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South or a command letter z y s q: 
+Illegal Move Error: Invalid pit number.
+
+Please enter a pit number for South or a command letter z y s q: 
+Illegal Move Error: Cannot pick store as a move.
+
+Please enter a pit number for South or a command letter z y s q: 
+Command e pressed!
+Invalid command! Please try again.
+
+Please enter a pit number for South or a command letter z y s q: 
+Command q pressed!
+Quitting game at user's request
+Game over -- goodbye!

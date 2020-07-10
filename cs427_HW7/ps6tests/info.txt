@@ -1,0 +1,35 @@
+Input: ./kalah 6 4 human human < /c/cs427/code/ps5/sample.in
+Output: tests/sample.out
+
+Input: ./kalah 6 4 human human < /c/cs427/code/ps5/sample2.in
+Output: tests/sample2.out
+
+Input: ./kalah 3 2 human human < /c/cs427/code/ps5/sample3.in
+Output: tests/sample3.out
+
+Input: ./kalah 3 2 human human < /c/cs427/code/ps5/sample4.in
+Output: tests/sample4.out
+
+Input: ./kalah 6 4
+Output: ArgError exception raised
+
+Input: ./kalah 6 4 a machine
+Output: ArgError exception raised
+
+Input: ./kalah 6 4 a b
+Output: ArgError exception raised
+
+Input: ./kalah a b human machine
+Output: ArgError exception raised
+
+Input: ./kalah 6 0 human machine
+Output: ArgError exception raised
+
+Input: ./kalah 6 4 human human machine
+Output: ArgError exception raised
+
+Input: ./kalah 6 4 machine machine
+Output: tests/sample5.out
+
+Input: ./kalah 6 4 machine human < sample6.in
+Output: tests/sample6.out

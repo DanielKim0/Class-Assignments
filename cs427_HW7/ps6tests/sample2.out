@@ -1,0 +1,59 @@
+
+---------------------------------------------------------------
+	Daniel Kim
+	CPSC 427/527
+	Wed Nov  6 2019	00:18:56
+---------------------------------------------------------------
+Welcome to Kalah!
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 0] S0
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 1
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 5]  [ 5]  [ 5]
+  N0 [ 0]                                    [ 1] S0
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for North (q to quit): 
+North playing move 4
+Turn is over
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 5]  [ 5]  [ 5]  [ 0]  [ 5]  [ 5]
+  N0 [ 1]                                    [ 1] S0
+          [ 5]  [ 4]  [ 4]  [ 4]  [ 4]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 6
+Captured 6 seeds
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 5]  [ 5]  [ 5]  [ 0]  [ 5]  [ 0]
+  N0 [ 1]                                    [ 7] S0
+          [ 0]  [ 5]  [ 5]  [ 5]  [ 5]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for North (q to quit): 
+Quitting game at user's request
+Game over -- goodbye!
+
+---------------------------------------------------------------
+Normal termination.

@@ -1,0 +1,375 @@
+
+---------------------------------------------------------------
+	Daniel Kim
+	CPSC 427/527
+	Wed Nov  6 2019	00:31:24
+---------------------------------------------------------------
+Welcome to Kalah!
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 0] S0
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 4
+South gets another turn
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 4]  [ 4]  [ 4]  [ 4]
+  N0 [ 0]                                    [ 1] S0
+          [ 4]  [ 4]  [ 0]  [ 5]  [ 5]  [ 5]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 1
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 4]  [ 4]  [ 5]  [ 5]  [ 5]  [ 5]
+  N0 [ 0]                                    [ 2] S0
+          [ 4]  [ 4]  [ 0]  [ 5]  [ 5]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 1
+Turn is over
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 4]  [ 5]  [ 5]  [ 5]  [ 5]
+  N0 [ 1]                                    [ 2] S0
+          [ 5]  [ 5]  [ 1]  [ 5]  [ 5]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 4
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 4]  [ 5]  [ 5]  [ 5]  [ 5]
+  N0 [ 1]                                    [ 2] S0
+          [ 5]  [ 5]  [ 0]  [ 6]  [ 5]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 2
+Turn is over
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 0]  [ 5]  [ 5]  [ 5]  [ 5]
+  N0 [ 2]                                    [ 2] S0
+          [ 6]  [ 6]  [ 0]  [ 6]  [ 5]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 6
+South gets another turn
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 0]  [ 5]  [ 5]  [ 5]  [ 5]
+  N0 [ 2]                                    [ 3] S0
+          [ 0]  [ 7]  [ 1]  [ 7]  [ 6]  [ 1]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 1
+South gets another turn
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 0]  [ 5]  [ 5]  [ 5]  [ 5]
+  N0 [ 2]                                    [ 4] S0
+          [ 0]  [ 7]  [ 1]  [ 7]  [ 6]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 5
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 0]  [ 5]  [ 5]  [ 6]  [ 6]
+  N0 [ 2]                                    [ 5] S0
+          [ 0]  [ 0]  [ 2]  [ 8]  [ 7]  [ 1]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 1
+North gets another turn
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 0]  [ 5]  [ 5]  [ 6]  [ 6]
+  N0 [ 3]                                    [ 5] S0
+          [ 0]  [ 0]  [ 2]  [ 8]  [ 7]  [ 1]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 3
+Turn is over
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 1]  [ 0]  [ 5]  [ 6]  [ 6]
+  N0 [ 4]                                    [ 5] S0
+          [ 1]  [ 1]  [ 2]  [ 8]  [ 7]  [ 1]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 1
+South gets another turn
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 1]  [ 0]  [ 5]  [ 6]  [ 6]
+  N0 [ 4]                                    [ 6] S0
+          [ 1]  [ 1]  [ 2]  [ 8]  [ 7]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 3
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 2]  [ 1]  [ 6]  [ 7]  [ 7]
+  N0 [ 4]                                    [ 7] S0
+          [ 1]  [ 1]  [ 2]  [ 0]  [ 8]  [ 1]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 1
+North gets another turn
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 2]  [ 1]  [ 6]  [ 7]  [ 7]
+  N0 [ 5]                                    [ 7] S0
+          [ 1]  [ 1]  [ 2]  [ 0]  [ 8]  [ 1]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 2
+North gets another turn
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 0]  [ 1]  [ 6]  [ 7]  [ 7]
+  N0 [ 6]                                    [ 7] S0
+          [ 1]  [ 1]  [ 2]  [ 0]  [ 8]  [ 1]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 1
+North gets another turn
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 0]  [ 1]  [ 6]  [ 7]  [ 7]
+  N0 [ 7]                                    [ 7] S0
+          [ 1]  [ 1]  [ 2]  [ 0]  [ 8]  [ 1]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 3
+Captured 2 seeds
+Turn is over
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 0]  [ 0]  [ 6]  [ 7]  [ 7]
+  N0 [ 9]                                    [ 7] S0
+          [ 1]  [ 0]  [ 2]  [ 0]  [ 8]  [ 1]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 2
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 1]  [ 1]  [ 7]  [ 8]  [ 8]
+  N0 [ 9]                                    [ 8] S0
+          [ 1]  [ 0]  [ 2]  [ 0]  [ 0]  [ 2]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 1
+North gets another turn
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 1]  [ 1]  [ 7]  [ 8]  [ 8]
+  N0 [10]                                    [ 8] S0
+          [ 1]  [ 0]  [ 2]  [ 0]  [ 0]  [ 2]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 2
+Captured 2 seeds
+Turn is over
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 0]  [ 1]  [ 7]  [ 8]  [ 8]
+  N0 [12]                                    [ 8] S0
+          [ 0]  [ 0]  [ 2]  [ 0]  [ 0]  [ 2]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 4
+Captured 9 seeds
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 0]  [ 1]  [ 7]  [ 0]  [ 8]
+  N0 [12]                                    [17] S0
+          [ 0]  [ 0]  [ 0]  [ 1]  [ 0]  [ 2]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 3
+Turn is over
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 1]  [ 0]  [ 7]  [ 0]  [ 8]
+  N0 [12]                                    [17] S0
+          [ 0]  [ 0]  [ 0]  [ 1]  [ 0]  [ 2]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 1
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 1]  [ 0]  [ 7]  [ 0]  [ 9]
+  N0 [12]                                    [18] S0
+          [ 0]  [ 0]  [ 0]  [ 1]  [ 0]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 2
+Turn is over
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 0]  [ 0]  [ 7]  [ 0]  [ 9]
+  N0 [12]                                    [18] S0
+          [ 0]  [ 0]  [ 0]  [ 1]  [ 0]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 3
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 0]  [ 0]  [ 7]  [ 0]  [ 9]
+  N0 [12]                                    [18] S0
+          [ 0]  [ 0]  [ 0]  [ 0]  [ 1]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 1
+North gets another turn
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 0]  [ 0]  [ 7]  [ 0]  [ 9]
+  N0 [13]                                    [18] S0
+          [ 0]  [ 0]  [ 0]  [ 0]  [ 1]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 4
+Turn is over
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 1]  [ 1]  [ 0]  [ 0]  [ 9]
+  N0 [14]                                    [18] S0
+          [ 1]  [ 1]  [ 1]  [ 0]  [ 1]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 2
+Captured 10 seeds
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 1]  [ 1]  [ 1]  [ 0]  [ 0]  [ 0]
+  N0 [14]                                    [28] S0
+          [ 1]  [ 1]  [ 1]  [ 0]  [ 0]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 1
+North gets another turn
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 1]  [ 1]  [ 0]  [ 0]  [ 0]
+  N0 [15]                                    [28] S0
+          [ 1]  [ 1]  [ 1]  [ 0]  [ 0]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 2
+Captured 2 seeds
+Turn is over
+
+----------
+South's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 0]  [ 1]  [ 0]  [ 0]  [ 0]
+  N0 [17]                                    [28] S0
+          [ 0]  [ 1]  [ 1]  [ 0]  [ 0]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 4
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3    N4    N5    N6
+          [ 0]  [ 0]  [ 1]  [ 0]  [ 0]  [ 0]
+  N0 [17]                                    [28] S0
+          [ 0]  [ 1]  [ 0]  [ 1]  [ 0]  [ 0]
+           S6    S5    S4    S3    S2    S1
+
+North playing move 3
+Captured 2 seeds
+Turn is over
+
+South has 29 points.
+North has 19 points.
+South wins!
+
+---------------------------------------------------------------
+Normal termination.

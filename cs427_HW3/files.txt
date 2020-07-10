@@ -1,0 +1,11 @@
+Files:
+files.txt: This file, containing info on what each file in this program does.
+notes.txt: File containing notes on how to run the program and the decisions that I made for each class.
+dice.cpp, dice.hpp, dice.o: Files containing the Dice class that I wrote for this homework.
+craps.cpp, craps.hpp, craps.o: Files containing the Craps class that I wrote for this homework.
+simulator.cpp, simulator.hpp, simulator.o: Files containing the Simulator class that I wrote for this homework.
+main.cpp: File containing the main function of the entire program.
+tools.cpp, tools.hpp, tools.o: Files containing pre-written tools.
+Makefile: File that makes the executable for this program.
+craps: Executable program to run.
+craps.out: Inputs and outputs of some tests that I ran.

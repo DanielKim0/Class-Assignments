@@ -1,0 +1,54 @@
+Test 1
+Inputs:
+./craps 100
+Outputs:
+Seed used:
+1569171468
+Number of simulations:
+100
+Wins/Games:
+38/100
+Rolls per Round:
+3.51
+
+
+Test 2
+Inputs:
+./craps 100 1
+Outputs:
+Seed used:
+1
+Number of simulations:
+100
+Wins/Games:
+56/100
+Rolls per Round:
+3.69
+
+
+Test 3
+Inputs:
+./craps 100 1
+Outputs:
+Seed used:
+1
+Number of simulations:
+100
+Wins/Games:
+56/100
+Rolls per Round:
+3.69
+
+
+Test 4
+Inputs:
+./craps 1000 500
+Outputs:
+Seed used:
+500
+Number of simulations:
+1000
+Wins/Games:
+483/1000
+Rolls per Round:
+3.545

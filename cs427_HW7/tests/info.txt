@@ -1,0 +1,18 @@
+Input: ./kalah -f sample.txt
+Output: Successful file load
+
+Input: ./kalah -f sample1.txt
+Output: Fatal object raised
+
+Input: ./kalah -f sample2.txt
+Output: Fatal object raised
+
+Input: ./kalah -f sample3.txt
+Output: Fatal object raised
+
+Input: ./kalah 6 4 < sample1.in
+Output: sample1.out
+Saved File: sample1.save
+
+Input: ./kalah 6 4 < sample2.in
+Output: sample2.out

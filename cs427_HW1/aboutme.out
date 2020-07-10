@@ -1,0 +1,20 @@
+Test 1:
+Inputs:
+Input 1 (First Name): "Daniel"
+Input 2 (Last Name): "Kim"
+Input 3 (Year): 2000
+Output:
+Please enter your first name: Daniel
+Please enter your last name: Kim
+Please enter the year of your birth: 2000
+Daniel Kim becomes 19 years old in 2019.
+
+Test 2:
+Inputs:
+Input 1 (First Name): "Daniel"
+Input 2 (Last Name): "Kim"
+Input 3 (Year): "aaa"
+Output:
+Please enter your first name: Daniel
+Please enter your last name: Kim
+You did not input an integer!

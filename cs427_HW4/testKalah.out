@@ -1,0 +1,211 @@
+-----Inputs: 6, 3-----
+Printing Player
+North
+
+
+Printing Pit
+Owner: North
+Number: 1
+Label: N1
+Next: N2
+Opposite: None
+Contents: 3
+
+
+Printing Board
+Owner: South
+Number: 6
+Label: S6
+Next: N0
+Opposite: N1
+Contents: 3
+
+Owner: South
+Number: 5
+Label: S5
+Next: S6
+Opposite: N2
+Contents: 3
+
+Owner: South
+Number: 4
+Label: S4
+Next: S5
+Opposite: N3
+Contents: 3
+
+Owner: South
+Number: 3
+Label: S3
+Next: S4
+Opposite: N4
+Contents: 3
+
+Owner: South
+Number: 2
+Label: S2
+Next: S3
+Opposite: N5
+Contents: 3
+
+Owner: South
+Number: 1
+Label: S1
+Next: S2
+Opposite: N6
+Contents: 3
+
+Owner: South
+Number: 0
+Label: S0
+Next: S1
+Opposite: None
+Contents: 3
+
+Owner: North
+Number: 6
+Label: N6
+Next: S0
+Opposite: S1
+Contents: 3
+
+Owner: North
+Number: 5
+Label: N5
+Next: N6
+Opposite: S2
+Contents: 3
+
+Owner: North
+Number: 4
+Label: N4
+Next: N5
+Opposite: S3
+Contents: 3
+
+Owner: North
+Number: 3
+Label: N3
+Next: N4
+Opposite: S4
+Contents: 3
+
+Owner: North
+Number: 2
+Label: N2
+Next: N3
+Opposite: S5
+Contents: 3
+
+Owner: North
+Number: 1
+Label: N1
+Next: N2
+Opposite: S6
+Contents: 3
+
+
+Testing Drop
+Before:
+Contents: 3
+After:
+Contents: 4
+
+Testing Empty
+Contents: 4
+Prints '1' if empty and '0' if not: 0
+
+Testing Scoop
+Before:
+Contents: 4
+After:
+Contents: 0
+
+Testing Empty
+Contents: 0
+Prints '1' if empty and '0' if not: 1
+
+-----Inputs: 3, 4-----
+Printing Player
+North
+
+
+Printing Pit
+Owner: North
+Number: 1
+Label: N1
+Next: N2
+Opposite: None
+Contents: 4
+
+
+Printing Board
+Owner: South
+Number: 3
+Label: S3
+Next: N0
+Opposite: N1
+Contents: 4
+
+Owner: South
+Number: 2
+Label: S2
+Next: S3
+Opposite: N2
+Contents: 4
+
+Owner: South
+Number: 1
+Label: S1
+Next: S2
+Opposite: N3
+Contents: 4
+
+Owner: South
+Number: 0
+Label: S0
+Next: S1
+Opposite: None
+Contents: 4
+
+Owner: North
+Number: 3
+Label: N3
+Next: S0
+Opposite: S1
+Contents: 4
+
+Owner: North
+Number: 2
+Label: N2
+Next: N3
+Opposite: S2
+Contents: 4
+
+Owner: North
+Number: 1
+Label: N1
+Next: N2
+Opposite: S3
+Contents: 4
+
+
+Testing Drop
+Before:
+Contents: 4
+After:
+Contents: 5
+
+Testing Empty
+Contents: 5
+Prints '1' if empty and '0' if not: 0
+
+Testing Scoop
+Before:
+Contents: 5
+After:
+Contents: 0
+
+Testing Empty
+Contents: 0
+Prints '1' if empty and '0' if not: 1

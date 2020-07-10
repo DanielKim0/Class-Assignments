@@ -1,0 +1,110 @@
+
+---------------------------------------------------------------
+	Daniel Kim
+	CPSC 427/527
+	Wed Nov  6 2019	00:20:39
+---------------------------------------------------------------
+Welcome to Kalah!
+
+----------
+South's turn:
+           N1    N2    N3
+          [ 2]  [ 2]  [ 2]
+  N0 [ 0]                  [ 0] S0
+          [ 2]  [ 2]  [ 2]
+           S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 2
+South gets another turn
+
+----------
+South's turn:
+           N1    N2    N3
+          [ 2]  [ 2]  [ 2]
+  N0 [ 0]                  [ 1] S0
+          [ 2]  [ 0]  [ 3]
+           S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 1
+Turn is over
+
+----------
+North's turn:
+           N1    N2    N3
+          [ 2]  [ 3]  [ 3]
+  N0 [ 0]                  [ 2] S0
+          [ 2]  [ 0]  [ 0]
+           S3    S2    S1
+
+Please enter a pit number for North (q to quit): 
+North playing move 3
+North gets another turn
+
+----------
+North's turn:
+           N1    N2    N3
+          [ 3]  [ 4]  [ 0]
+  N0 [ 1]                  [ 2] S0
+          [ 2]  [ 0]  [ 0]
+           S3    S2    S1
+
+Please enter a pit number for North (q to quit): 
+North playing move 2
+Turn is over
+
+----------
+South's turn:
+           N1    N2    N3
+          [ 4]  [ 0]  [ 0]
+  N0 [ 2]                  [ 2] S0
+          [ 3]  [ 1]  [ 0]
+           S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 3
+South gets another turn
+
+----------
+South's turn:
+           N1    N2    N3
+          [ 4]  [ 0]  [ 0]
+  N0 [ 2]                  [ 3] S0
+          [ 0]  [ 2]  [ 1]
+           S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 1
+South gets another turn
+
+----------
+South's turn:
+           N1    N2    N3
+          [ 4]  [ 0]  [ 0]
+  N0 [ 2]                  [ 4] S0
+          [ 0]  [ 2]  [ 0]
+           S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 2
+South gets another turn
+
+----------
+South's turn:
+           N1    N2    N3
+          [ 4]  [ 0]  [ 0]
+  N0 [ 2]                  [ 5] S0
+          [ 0]  [ 0]  [ 1]
+           S3    S2    S1
+
+Please enter a pit number for South (q to quit): 
+South playing move 1
+South gets another turn
+
+South has 6 points.
+North has 6 points.
+It's a tie!
+
+---------------------------------------------------------------
+Normal termination.

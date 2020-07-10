@@ -1,0 +1,7 @@
+How to run the code:
+First, run make in the submission directory.
+Then, run the executable file named craps.
+Craps has two command-line arguments: the number of simulations to run and (optional) the seed to use.
+
+Code Info:
+When I wrote this code, I attempted to make each class as separate and discrete as possible, keeping functionality within each class separate as well as keeping as many variables or methods private as I could. To this end, for the Dice program, I kept outside access as low as possible, only passing to the Craps class as much as it needed; i.e., the sum of the dice and the methods to roll the dice. Outside classes have no access to the internals of the dice class, such as individual rolled dice or even the array of dice to prevent unnecessary and dangerous changes to the dice, as well as, for the latter, to avoid passing the array by pointer. As for the Craps class, I followed much the same philosophy, with one main "roll" function being privately separated into first and other roll functions. In addition, I encapsulated the function to create and roll dice in its own method to call it easily. This class only gives access to as much information as necessary; namely, the number of rolls and the state of the game, with everything else being kept internally. Finally, for the Simulator class, I followed the same philosophy; this class doesn't even have any public getter functions because of a lack of need for them.

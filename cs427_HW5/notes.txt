@@ -1,0 +1,49 @@
+#Player
+Self - explanatory;
+has a << operator and a definition.
+
+#Pit
+         The pit's methods are those that deal with only the pit itself and other pits, and can be located at the "lowest level" of the program without interference from other classes.
+             *<<
+             operator,
+    outputs information about the pit, in PSet 4 *scoop,
+    drop, and add functions, which were in PSet 4 *sow function,
+    which helps the board sow a pit by returning its
+        contents(which it necessarily needs) *
+        getters that get the next and opposite pointers,
+    which protect the next and opposite pits from outside meddling,
+    returns a private variable's value for use *equality checker, which checks
+        if a pit is equal to a passed
+        - in pit pointer's pit *contents getter necessary to count the ending
+        points,
+    returns a
+    private variable's value *method that looks at a pit and its opposite to
+    check if capture is valid;
+accesses the other pit's private variables, meaning that it must be located in the pit class
+
+#Board
+The board's methods are primarily those that edit the values of multiple pits in its private pit array.
+* << operator, prints info about all the pits that it owns
+* pit getter that internally gathers a pit from two pieces of external information, exposing only the pit pointer returned and no other internals.
+* method that checks if a player's entire row of houses is empty; board is the only class with the entire array of pits, as it is private, so it must handle this function.
+* method that moves all of the pits of a player's side to its store; reason the same as above
+
+#Game
+The game's methods primarily deal with the game's logic and rules.
+* functions that return the houses and seeds, for use by the referee class
+* various functions that return the state of a move, for use by the referee class
+* operator that prints the game's board, also for use by the referee class
+* performs a capture with a given pit, placed in the game class because it deals with the game's rules
+* gets the store's total of a player, used to calculate winner and deals with game logic
+* methods to check and perform valid moves, both of which deal with the game's logic
+* methods to return the game's current player and opposite player, so referee can print those names out
+* method to check if game is over and to perform actions if it is, also deals with the game's logic
+* method to switch the current player, used for shortening length of code and simplicity
+
+#Referee
+The referee's methods deal with the player's input and creates an interface with the game class.
+* method to start the game and which handles each turn by gathering input from the player and asking the game class to handle input;
+such a method necessarily must come from the referee class *announces the end of
+    the game by gathering information from the game class,
+    also interfaces with the players by printing out information after the game
+        has ended and therefore goes into the referee class

@@ -1,0 +1,32 @@
+#Referee:
+As directed in the homework sheet, I moved the logic for getting input for moves from Referee to HumanAgent. Notably, I also added sufficient error checking for malformed inputs.
+
+#Agent:
+As recommended in the homework sheet, I passed a const game by reference from the Referee class to the Agent virtual class. In order to facilitate having a const game, I had to change many functions within the Game, Board, and Pit classes to also be const;
+this served to increase security,
+    ensuring that functions which weren't meant to change internal data within those classes did not actually change internals, such as printing methods or isValidMove(). For the Agent classes, I added the logic to accept the game reference, the virtual destructor, and the virtual chooseMove() function in the Agent class, to ensure that as much commonality is placed in the common class as possible.
+
+#HumanAgent:
+    The HumanAgent is relatively simple,
+    as it consists of the class definition /
+        constructor and the implementation of the chooseMove() function,
+    which was moved from Referee.
+
+#MachineAgent:
+    Therefore,
+    I added functions in the Game and Board classes to assist the
+    MachineAgent in determining which Pits in the Game were empty;
+because the highest -
+        level class that has access to information on whether pits are empty or
+    not is the Board,
+    I had to add functions that facilitated calling the function in
+        Board.The sole function in MachineAgent,
+    as in HumanAgent,
+    chooses the move using these functions.
+
+#main.cpp:
+    In order to attempt to sanitize inputs,
+    I added functionality in main.cpp to weed out malformed inputs,
+    raising exceptions as necessary.I also added a function to efficiently
+        compare strings to the two possible choices,
+    to see if the last two arguments are valid.
